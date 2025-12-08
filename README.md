@@ -21,7 +21,7 @@ This template repo is a quick and easy way to get started with a new Solidity pr
 Follow these steps to set up your local environment:
 
 - [Install foundry](https://book.getfoundry.sh/getting-started/installation)
-- Install dependencies: `forge install`
+- Install dependencies: `forge solodeer install`
 - Build contracts: `forge build`
 - Test contracts: `forge test`
 

@@ -2,7 +2,7 @@
 pragma solidity 0.8.23;
 
 import {ICounter, IVersioned} from "./interface/ICounter.sol";
-import {Initializable} from "@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol";
+import {Initializable} from "@openzeppelin-contracts-upgradeable/proxy/utils/Initializable.sol";
 
 contract Counter is ICounter, Initializable {
     uint256 public number;
